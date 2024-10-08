@@ -1,0 +1,28 @@
+{
+    "name": "product-service",
+    "version": "1.0.0",
+    "description": "Product Management Microservice",
+    "main": "dist/main.js",
+    "scripts": {
+      "build": "nest build",
+      "start": "nest start",
+      "start:dev": "nest start --watch",
+      "start:prod": "node dist/main"
+    },
+    "dependencies": {
+      "@nestjs/common": "^7.6.15",
+      "@nestjs/core": "^7.6.15",
+      "@nestjs/platform-express": "^7.6.15",
+      "@nestjs/typeorm": "^7.1.5",
+      "pg": "^8.6.0",
+      "typeorm": "^0.2.32",
+      "reflect-metadata": "^0.1.13",
+      "rxjs": "^6.6.7"
+    },
+    "devDependencies": {
+      "@nestjs/cli": "^7.6.0",
+      "@types/node": "^14.14.41",
+      "ts-node": "^9.1.1",
+      "typescript": "^4.2.4"
+    }
+  }
